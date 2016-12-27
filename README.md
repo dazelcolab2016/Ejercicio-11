@@ -5,7 +5,7 @@
 ## Ingreso datos
 - a
 - b
-- negative
+- agative
 - posNeg
 
 
