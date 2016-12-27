@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Make-10</title>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<h1 class="">Make-10</h1>
+		<hr>
+		<div class="row">
+
+
+			<div class="col-md-6">
+
+				<h3>Ingrese A</h3>
+				<label for="numero-a">Ingresa Número
+					<input type="text" id="a"> 
+				</label>
+				<h3>Ingrese B</h3>
+				<label for="numero-b">Ingresa Número
+					<input type="text" id="b"> 
+				</label>
+				<h3>Negativo?</h3>
+				<label for="negativo">
+					   <input type="checkbox" onchange="negativoA()" id="negativo_a"> Es negativo?
+				</label>
+				<div id="negativo-txt"></div>
+		        
+				<div id="resultado"></div>
+
+			</div>
+		</div>
+		<div class="well">
+			<h4>El resultado es:</h4>
+			<h1 id="salida"></h1>
+		</div>
+		<p><button onclick="evaluar()" class="btn-warning btn-lg btn">Evaluar</button></p>
+		
+		<center>
+        <div class="fondo">
+                <h4>AREA MASTER JEDY</h4>
+                
+            <div>
+            <a href="https://github.com/dazelcolab2016/Ejercicio-10"><p><button class="btn btn-primary">Ver Codigo</button></p>
+            </a>
+            </div>
+        
+        </div>
+    </center>
+	</div>
+</body>
+</html>
