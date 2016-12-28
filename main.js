@@ -20,16 +20,16 @@ function evaluar()
         
 	if(a < 0 && b > 0 && aNegative == true )
     {
-            posNeg  = 1;
+            posNeg  = 0;
             salida.innerHTML = posNeg;
         
         }else if (a > 0 && b < 0 && aNegative == true )
         {
-            posNeg  = 1;
+            posNeg  = 0;
             salida.innerHTML = posNeg;
         }else
         {
-            posNeg  = 0;
+            posNeg  = 1;
             salida.innerHTML = posNeg;
         }
 }
