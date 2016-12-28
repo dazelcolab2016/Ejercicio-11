@@ -14,13 +14,13 @@
 - obtener b
 - obtener negative
 - si a < 0 y b > 0 y negative es = a true entonces
-    posNeg = 1
+    posNeg = 0
     mostrar posNeg
 - si a > 0 y b < 0 y negative es = a true entonces
-    posNeg = 1
+    posNeg = 0
     mostrar posNeg
 -y si no
-    posNeg = 0
+    posNeg = 1
     mostrar posNeg
 
 
